@@ -1,0 +1,93 @@
+/*
+    Dark purple - rgb(46, 43, 71)
+    Light purple - rgb(119, 138, 213)
+    Orange - rgb(235, 92, 42)
+
+    Background
+    Light gray - rgb(236, 237, 238)
+    White - rgb(255, 255, 255)
+
+    Fonts
+    Headings
+    Source Sans Pro
+
+    Regular content
+    Nunito
+*/
+
+header {
+    height: 52px;
+    width: 100%;
+    background-color: #2e2b47;
+}
+
+header > * {
+    padding: 4px;
+}
+
+body {
+    background-color: #ecedee;
+}
+
+a {
+    color: #eb5c2a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p, li {
+    font-family: 'Nunito', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.main-content {
+    width: 80%;
+    margin: 4rem auto;
+    padding: 2rem;
+}
+
+.main-content img {
+    max-width: 100%;
+}
+
+.overlay {
+    background-color: #ffffff;
+}
+
+.title {
+    color: #2e2b47;
+}
